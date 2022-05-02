@@ -572,4 +572,6 @@ def tictactoe():
         player_normal.update()
         pygame.display.flip()
         pygame.time.wait(200)
-tictactoe()
+if __name__ == '__main__':
+    pygame.init()
+    tictactoe()
